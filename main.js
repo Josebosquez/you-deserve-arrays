@@ -1,14 +1,26 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+function getFirstItemFrom (arr){
+  const firstChar = arr[0];
+  return firstChar;
+}
+
+function getLastItemFrom (arr){
+  const index = arr.length -1;
+  const lastChar = arr[index];
+  return lastChar;
+}
+
+function getIndex3 (array) {
+  const index1 = array.length[3];
+  const thrdChar = array[index1];
+  return thrdChar;
+}
 
 
 
-
-
-
-
- /********************************************
+/********************************************
  * CODE DOWN HERE IS FOR INTERNAL USE ONLY. *
  *           PLEASE DON'T TOUCH!            *
  ********************************************/
