@@ -35,6 +35,10 @@ function firstItemIsNumber (arr){
 }
 }
 
+function secondCharOfThirdString(mixedArray){ 
+  let thirdItem = mixedArray[2];
+return thirdItem[1];
+}
 
 /********************************************
  * CODE DOWN HERE IS FOR INTERNAL USE ONLY. *
