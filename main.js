@@ -13,11 +13,27 @@ function getLastItemFrom (arr){
 }
 
 function getIndex3 (array) {
-  const index1 = array.length[3];
-  const thrdChar = array[index1];
-  return thrdChar;
+  if (array.length >= 4){
+    return array[3];
+  }
+  return array[array.length - 1];
 }
 
+function isLongList (arr){
+  if (arr.length >= 10){
+    return true;
+  } else {
+    return false;
+  }
+}
+
+function firstItemIsNumber (arr){
+  if (typeof arr[0] === 'number'){
+  return true;
+} else {
+  return false;
+}
+}
 
 
 /********************************************
